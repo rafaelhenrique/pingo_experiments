@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
- import pingo
-from time import sleep
+import pingo
 
-board = pingo.detect.get_board()
+try:
+    board = pingo.detect.get_board()
+except Exception as err:
+    print("Previous exception: {}".format(err))
+    board = pingo.detect.MyBoard()
 
