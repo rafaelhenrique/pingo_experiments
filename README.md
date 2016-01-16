@@ -4,7 +4,7 @@
 
 Its cool project :D
 
-My serial/usb dont work now :disapointed:...
+My serial/usb dont work now :disappointed:...
 
 ```
 $ python basic_pymata.py 
@@ -32,4 +32,5 @@ Traceback (most recent call last):
 serial.serialutil.SerialException: Attempting to use a port that is not open
 ```
 
+Same error on pingo.
 Can you help me? :cry:
