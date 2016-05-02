@@ -4,6 +4,8 @@
 
 Its cool project :D
 
+## My first experiment (Solved NOW \o/)
+
 My serial/usb dont work now :disappointed:...
 
 ```
@@ -65,3 +67,19 @@ $ dmesg
 
 Same error on pingo.
 Can you help me? :cry:
+
+## Solution for this problem
+
+When you use pingo/pyfirmata we need preload StandardFirmata on your board... on ARDUINO IDE preload this example on menus:
+
+"File" -> "Examples" -> "Firmata" -> "StandartFirmata"
+
+Then my script works !!! :D
+
+\o/
+
+** I need transcript this procedure on my blog in the next time :/
+
+## Thanks
+
+Luiz Fernando Fuhrmeister - Help on my first journey with pingo \o/
