@@ -3,7 +3,7 @@ import pingo
 from time import sleep
 
 board = pingo.detect.get_board()
-led_pin = board.pins[10]
+led_pin = board.pins[11]
 led_pin.mode = pingo.OUT
 
 while True:
@@ -11,4 +11,3 @@ while True:
     sleep(1)
     led_pin.lo()
     sleep(1)
-
